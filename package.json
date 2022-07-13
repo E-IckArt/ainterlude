@@ -1,0 +1,22 @@
+{
+  "name": "ainterlude",
+  "version": "1.0.0",
+  "description": "Site statique d'une association - version responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-IckArt/ainterlude.git"
+  },
+  "author": "E-IckArt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-IckArt/ainterlude/issues"
+  },
+  "homepage": "https://github.com/E-IckArt/ainterlude#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
