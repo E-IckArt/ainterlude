@@ -15,3 +15,7 @@ Refonte partielle du site ain-terlude.org pour adaptation responsive.
 ```
 npm init
 ```
+
+```
+npm install
+```
