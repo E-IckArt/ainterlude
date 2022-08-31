@@ -10155,5 +10155,8 @@ body {
 }
 
 /* END : NAVBAR */
+footer ul {
+  list-style: none;
+}
 
 /*# sourceMappingURL=style.css.map */
