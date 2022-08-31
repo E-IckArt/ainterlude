@@ -1,7 +1,7 @@
 # Ain'terlude
 
-Projet d'évaluation HTML/CSS - Site Statique d'une association
-Refonte partielle du site ain-terlude.org pour adaptation responsive.
+Projet d'évaluation HTML/CSS  
+Site Statique d'une association - Refonte partielle du site [ain-terlude.org](https://www.ain-terlude.org/) pour adaptation responsive.
 
 # Technologies choisies
 
@@ -14,4 +14,8 @@ Refonte partielle du site ain-terlude.org pour adaptation responsive.
 
 ```
 npm init
+```
+
+```
+npm install
 ```

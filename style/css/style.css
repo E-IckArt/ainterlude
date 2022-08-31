@@ -10114,7 +10114,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: url("../../../assets/images/background_gray_jean.png");
+  background-image: url("../../assets/images/background_gray_jean.png");
 }
 
 /* START : NAVBAR */
@@ -10155,5 +10155,8 @@ body {
 }
 
 /* END : NAVBAR */
+footer ul {
+  list-style: none;
+}
 
 /*# sourceMappingURL=style.css.map */

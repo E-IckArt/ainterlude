@@ -4,9 +4,10 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 // GENERAL
-@import 'base/body';
+@import 'base/body.scss';
 
 // LAYOUTS
-@import 'layouts/header';
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
 
 // COMPONENTS
