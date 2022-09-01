@@ -10156,15 +10156,22 @@ body {
 }
 
 /* END : NAVBAR */
+main.container {
+  background-color: #fff;
+}
+main.container .main__heading--background {
+  background-size: cover;
+}
+main.container h1, main.container .h1 {
+  font-family: "Special Elite", cursive;
+  margin: 1rem;
+}
+
 footer ul {
   list-style: none;
 }
 
 .navbar {
-  font-family: "Special Elite", cursive;
-}
-
-h1, .h1 {
   font-family: "Special Elite", cursive;
 }
 
