@@ -10160,6 +10160,7 @@ main.container {
   background-color: #fff;
 }
 main.container .main__heading--background {
+  background-image: url("../../../assets/images/hexagone.png");
   background-size: cover;
 }
 main.container h1, main.container .h1 {
