@@ -1,16 +1,13 @@
 User-Agent: Googlebot
-
-Allow: //e-ickart.github.io/ainterlude/
+Allow: /
 
 
 User-Agent: Googlebot-Mobile
-
-Allow: //e-ickart.github.io/ainterlude/
+Allow: /
 
 
 User-Agent: Slurp
+Disallow: /
 
-Disallow: //e-ickart.github.io/ainterlude/
 
-
-Sitemap: sitemap.xml
+Sitemap: https://e-ickart.github.io/ainterlude/sitemap.xml
