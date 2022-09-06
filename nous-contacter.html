@@ -337,6 +337,133 @@
                     <h1 class="text-center">Nous contacter</h1>
                 </div>
             </div>
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2>Via le formulaire</h2>
+                </div>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="firstname" class="form-label">Prénom</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="firstname"
+                            name="firstname"
+                            placeholder="Votre prénom"
+                            required
+                        />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="lastname" class="form-label">Nom</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="lastname"
+                            name="lastname"
+                            placeholder="Votre nom"
+                            required
+                        />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="email" class="form-label"
+                            >Adresse Email</label
+                        >
+                        <div class="input-group">
+                            <span class="input-group-text" id="emailPrepend2"
+                                >@</span
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                aria-describedby="inputGroupPrepend2"
+                                required
+                                placeholder="utilisateur@example.com"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">City</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="city"
+                            name="city"
+                            required
+                            placeholder="Votre ville"
+                        />
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Code postal</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="zip"
+                            name="zip"
+                            required
+                        />
+                    </div>
+                    <div class="col-md-3">
+                        <label for="quality" class="form-label"
+                            >Je suis :</label
+                        >
+                        <select
+                            class="form-select"
+                            id="quality"
+                            name="quality"
+                            required
+                        >
+                            <option selected disabled value="">
+                                Choisir...
+                            </option>
+                            <option>Un particulier</option>
+                            <option>Une école</option>
+                            <option>Un accueil de loisirs</option>
+                            <option>Un autre type de structure</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea
+                            type="text"
+                            class="form-control"
+                            id="message"
+                            name="message"
+                            placeholder="Votre message"
+                            rows="10"
+                            required
+                        ></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="agreement"
+                                name="agreement"
+                                required
+                            />
+                            <label class="form-check-label" for="agreement">
+                                J'accepte la
+                                <a href="politique-de-confidentialite.html"
+                                    >Politique de confidentialité</a
+                                >
+                                et la collecte de mes données personnelles.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+            </div>
         </main>
         <!-- Start - Footer -->
         <footer class="mt-auto">
@@ -373,7 +500,9 @@
                             </a>
                         </li>
                         <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link"
+                            <a
+                                href="https://fr-fr.facebook.com/pages/category/Social-Service/Ainterlude-en-Bugey-1382548051770299/"
+                                class="nav-link"
                                 >Suivez-nous
                                 <i class="fa-brands fa-facebook"></i
                             ></a>
