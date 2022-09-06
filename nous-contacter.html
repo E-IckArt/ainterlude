@@ -385,6 +385,16 @@
                 <div class="col-10 col-md-3 d-flex justify-content-center">
                     <h2 class="my-3">Via le formulaire</h2>
                 </div>
+                <div class="col-10 d-flex justify-content-center">
+                    <p class="fst-italic">
+                        Les champs suivis d'un astérisque<span
+                            class="text-warning"
+                        >
+                            *</span
+                        >
+                        sont obligatoires.
+                    </p>
+                </div>
                 <form class="row g-3">
                     <!-- Radio button -->
                     <div class="col-12 d-flex">
@@ -414,7 +424,9 @@
                     </div>
                     <!-- First Name -->
                     <div class="col-md-4">
-                        <label for="firstname" class="form-label">Prénom</label>
+                        <label for="firstname" class="form-label"
+                            >Prénom<span class="text-warning"> *</span>
+                        </label>
                         <input
                             type="text"
                             class="form-control"
@@ -426,7 +438,9 @@
                     </div>
                     <!-- Last Name -->
                     <div class="col-md-4">
-                        <label for="lastname" class="form-label">Nom</label>
+                        <label for="lastname" class="form-label"
+                            >Nom <span class="text-warning"> *</span></label
+                        >
                         <input
                             type="text"
                             class="form-control"
@@ -439,7 +453,9 @@
                     <!-- Email -->
                     <div class="col-md-4">
                         <label for="email" class="form-label"
-                            >Adresse Email</label
+                            >Adresse Email<span class="text-warning">
+                                *</span
+                            ></label
                         >
                         <div class="input-group">
                             <span class="input-group-text" id="emailPrepend2"
@@ -464,7 +480,6 @@
                             class="form-control"
                             id="city"
                             name="city"
-                            required
                             placeholder="Votre ville"
                         />
                     </div>
@@ -476,7 +491,6 @@
                             class="form-control"
                             id="zip"
                             name="zip"
-                            required
                         />
                     </div>
                     <!-- Quality -->
@@ -484,12 +498,7 @@
                         <label for="quality" class="form-label"
                             >Je suis :</label
                         >
-                        <select
-                            class="form-select"
-                            id="quality"
-                            name="quality"
-                            required
-                        >
+                        <select class="form-select" id="quality" name="quality">
                             <option selected disabled value="">
                                 Choisir...
                             </option>
@@ -500,7 +509,9 @@
                         </select>
                     </div>
                     <div class="col-12">
-                        <label for="message" class="form-label">Message</label>
+                        <label for="message" class="form-label"
+                            >Message <span class="text-warning"> *</span></label
+                        >
                         <textarea
                             type="text"
                             class="form-control"
@@ -523,11 +534,11 @@
                                 required
                             />
                             <label class="form-check-label" for="agreement">
-                                J'accepte la
-                                <a href="politique-de-confidentialite.html"
+                                J'accepte la collecte de mes données
+                                personnelles. Voir la
+                                <a href="mentions-legales.html"
                                     >Politique de confidentialité</a
                                 >
-                                et la collecte de mes données personnelles.
                             </label>
                         </div>
                     </div>
@@ -560,11 +571,8 @@
                             <a href="" class="nav-link">Plan du site</a>
                         </li>
                         <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link">Mentions Légales</a>
-                        </li>
-                        <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link"
-                                >Politique de confidentialité</a
+                            <a href="mentions-legales.html" class="nav-link"
+                                >Mentions Légales</a
                             >
                         </li>
                         <li class="nav-item mb-2 mx-4">
