@@ -337,13 +337,82 @@
                     <h1 class="text-center">Nous contacter</h1>
                 </div>
             </div>
+            <!-- Start Telephone -->
             <div
                 class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
             >
                 <div class="col-10 col-md-3 d-flex justify-content-center">
-                    <h2>Via le formulaire</h2>
+                    <h2 class="my-3">Par téléphone</h2>
+                </div>
+                <div class="col-10">
+                    <p>
+                        En appelant le
+                        <a href="tel:(+33)(0479425197)"
+                            ><b>04.79.42.51.97</b></a
+                        >
+                        ou le
+                        <a href="tel:(+33)(0617092919)"
+                            ><b>06.17.09.29.19</b></a
+                        >
+                    </p>
+                </div>
+            </div>
+            <!-- End Telephone -->
+            <!-- Start Facebook -->
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2 class="my-3">Sur Facebook</h2>
+                </div>
+                <div class="col-10">
+                    <p>
+                        Retrouvez toute notre actualité et
+                        <b>contactez-nous</b> sur notre page
+                        <a
+                            href="https://fr-fr.facebook.com/pages/category/Social-Service/Ainterlude-en-Bugey-1382548051770299/"
+                        >
+                            facebook <i class="fa-brands fa-facebook"></i
+                        ></a>
+                    </p>
+                </div>
+            </div>
+            <!-- End Facebook -->
+            <!-- Start - Contact Form -->
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2 class="my-3">Via le formulaire</h2>
                 </div>
                 <form class="row g-3">
+                    <!-- Radio button -->
+                    <div class="col-12 d-flex">
+                        <div class="form-check me-3">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gender"
+                                id="female"
+                                checked
+                            />
+                            <label class="form-check-label" for="female">
+                                Mme
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gender"
+                                id="male"
+                            />
+                            <label class="form-check-label" for="male">
+                                Mr
+                            </label>
+                        </div>
+                    </div>
+                    <!-- First Name -->
                     <div class="col-md-4">
                         <label for="firstname" class="form-label">Prénom</label>
                         <input
@@ -355,6 +424,7 @@
                             required
                         />
                     </div>
+                    <!-- Last Name -->
                     <div class="col-md-4">
                         <label for="lastname" class="form-label">Nom</label>
                         <input
@@ -366,6 +436,7 @@
                             required
                         />
                     </div>
+                    <!-- Email -->
                     <div class="col-md-4">
                         <label for="email" class="form-label"
                             >Adresse Email</label
@@ -385,6 +456,7 @@
                             />
                         </div>
                     </div>
+                    <!-- City -->
                     <div class="col-md-6">
                         <label for="city" class="form-label">City</label>
                         <input
@@ -396,7 +468,7 @@
                             placeholder="Votre ville"
                         />
                     </div>
-
+                    <!-- Zip code -->
                     <div class="col-md-3">
                         <label for="zip" class="form-label">Code postal</label>
                         <input
@@ -407,6 +479,7 @@
                             required
                         />
                     </div>
+                    <!-- Quality -->
                     <div class="col-md-3">
                         <label for="quality" class="form-label"
                             >Je suis :</label
@@ -438,6 +511,7 @@
                             required
                         ></textarea>
                     </div>
+                    <!-- Message -->
                     <div class="col-12">
                         <div class="form-check">
                             <input
@@ -457,13 +531,15 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <button class="btn btn-primary" type="submit">
+                    <!-- Submit Button-->
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary px-5" type="submit">
                             Envoyer
                         </button>
                     </div>
                 </form>
             </div>
+            <!-- End - Contact Form -->
         </main>
         <!-- Start - Footer -->
         <footer class="mt-auto">
