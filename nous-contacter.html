@@ -6,20 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content="Un espace de vie, social et ludique !"
+            content="Association Ain'terlude en Bugey, un espace de vie, social et ludique !"
         />
         <meta
             name="keywords"
             content="association, association de jeux, maison des jeux, ludothèque, jeux, jeux de plateau, jeux de société, jouer, joueurs, ludique, animation, projet, fête du jeu, colis de JAD, grand jeu en bois, location jeux en bois, Ain, Bugey, Valromey, Champagne en Valromey, Belley, Ain'terlude en Bugey, Espace de vie sociale,"
         />
-        <title>- Accueil Tout Public - Ain'terlude en Bugey</title>
+        <title>- Nous contacter - Ain'terlude en Bugey</title>
         <link
             rel="shortcut icon"
-            href="../assets/icons/favicon.png"
+            href="./assets/icons/favicon.png"
             type="image/png"
         />
         <!-- Overrided Bootstrap 5.1.3 -->
-        <link rel="stylesheet" href="../style/css/style.css" type="text/css" />
+        <link rel="stylesheet" href="./style/css/style.css" type="text/css" />
         <!-- Bootstrap Icons -->
         <link
             rel="stylesheet"
@@ -51,10 +51,10 @@
                 <div class="container-fluid align-items-lg-start flex-wrap">
                     <a
                         class="navbar-brand text-danger text-wrap w-75"
-                        href="../index.html"
+                        href="./index.html"
                     >
                         <img
-                            src="../assets/images/logo.png"
+                            src="./assets/images/logo.png"
                             alt="Logo de
                         l'association Ain'terlude en Bugey"
                             width="50"
@@ -92,7 +92,7 @@
                                 <a
                                     class="nav-link active"
                                     aria-current="page"
-                                    href="../index.html"
+                                    href="./index.html"
                                     ><i class="fa-solid fa-house text-dark"></i
                                     >Accueil</a
                                 >
@@ -198,7 +198,7 @@
                                     <li>
                                         <a
                                             class="dropdown-item gamesHouse"
-                                            href="./soirées-jeux.html"
+                                            href="./soirees-jeux.html"
                                             ><i
                                                 class="fa fa-dot-circle-o fa-fw"
                                             ></i
@@ -334,9 +334,223 @@
         <main class="container">
             <div class="row">
                 <div class="col main__heading--background">
-                    <h1 class="text-center">Accueil Tout Public</h1>
+                    <h1 class="text-center">Nous contacter</h1>
                 </div>
             </div>
+            <!-- Start Telephone -->
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2 class="my-3">Par téléphone</h2>
+                </div>
+                <div class="col-10">
+                    <p>
+                        En appelant le
+                        <a href="tel:(+33)(0479425197)"
+                            ><b>04.79.42.51.97</b></a
+                        >
+                        ou le
+                        <a href="tel:(+33)(0617092919)"
+                            ><b>06.17.09.29.19</b></a
+                        >
+                    </p>
+                </div>
+            </div>
+            <!-- End Telephone -->
+            <!-- Start Facebook -->
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2 class="my-3">Sur Facebook</h2>
+                </div>
+                <div class="col-10">
+                    <p>
+                        Retrouvez toute notre actualité et
+                        <b>contactez-nous</b> sur notre page
+                        <a
+                            href="https://fr-fr.facebook.com/pages/category/Social-Service/Ainterlude-en-Bugey-1382548051770299/"
+                        >
+                            facebook <i class="fa-brands fa-facebook"></i
+                        ></a>
+                    </p>
+                </div>
+            </div>
+            <!-- End Facebook -->
+            <!-- Start - Contact Form -->
+            <div
+                class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
+            >
+                <div class="col-10 col-md-3 d-flex justify-content-center">
+                    <h2 class="my-3" id="contactForm">Via le formulaire</h2>
+                </div>
+                <div class="col-10 d-flex justify-content-center">
+                    <p class="fst-italic">
+                        Les champs suivis d'un astérisque<span
+                            class="text-warning"
+                        >
+                            *</span
+                        >
+                        sont obligatoires.
+                    </p>
+                </div>
+                <form class="row g-3">
+                    <!-- Radio button -->
+                    <div class="col-12 d-flex">
+                        <div class="form-check me-3">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gender"
+                                id="female"
+                                checked
+                            />
+                            <label class="form-check-label" for="female">
+                                Mme
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gender"
+                                id="male"
+                            />
+                            <label class="form-check-label" for="male">
+                                Mr
+                            </label>
+                        </div>
+                    </div>
+                    <!-- First Name -->
+                    <div class="col-md-4">
+                        <label for="firstname" class="form-label"
+                            >Prénom<span class="text-warning"> *</span>
+                        </label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="firstname"
+                            name="firstname"
+                            placeholder="Votre prénom"
+                            required
+                        />
+                    </div>
+                    <!-- Last Name -->
+                    <div class="col-md-4">
+                        <label for="lastname" class="form-label"
+                            >Nom <span class="text-warning"> *</span></label
+                        >
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="lastname"
+                            name="lastname"
+                            placeholder="Votre nom"
+                            required
+                        />
+                    </div>
+                    <!-- Email -->
+                    <div class="col-md-4">
+                        <label for="email" class="form-label"
+                            >Adresse Email<span class="text-warning">
+                                *</span
+                            ></label
+                        >
+                        <div class="input-group">
+                            <span class="input-group-text" id="emailPrepend2"
+                                >@</span
+                            >
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                aria-describedby="inputGroupPrepend2"
+                                required
+                                placeholder="utilisateur@example.com"
+                            />
+                        </div>
+                    </div>
+                    <!-- City -->
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">City</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="city"
+                            name="city"
+                            placeholder="Votre ville"
+                        />
+                    </div>
+                    <!-- Zip code -->
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Code postal</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="zip"
+                            name="zip"
+                        />
+                    </div>
+                    <!-- Quality -->
+                    <div class="col-md-3">
+                        <label for="quality" class="form-label"
+                            >Je suis :</label
+                        >
+                        <select class="form-select" id="quality" name="quality">
+                            <option selected disabled value="">
+                                Choisir...
+                            </option>
+                            <option>Un particulier</option>
+                            <option>Une école</option>
+                            <option>Un accueil de loisirs</option>
+                            <option>Un autre type de structure</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label"
+                            >Message <span class="text-warning"> *</span></label
+                        >
+                        <textarea
+                            type="text"
+                            class="form-control"
+                            id="message"
+                            name="message"
+                            placeholder="Votre message"
+                            rows="10"
+                            required
+                        ></textarea>
+                    </div>
+                    <!-- Message -->
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                value=""
+                                id="agreement"
+                                name="agreement"
+                                required
+                            />
+                            <label class="form-check-label" for="agreement">
+                                J'accepte la collecte de mes données
+                                personnelles. Voir la
+                                <a href="mentions-legales.html"
+                                    >Politique de confidentialité</a
+                                >
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Submit Button-->
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary px-5" type="submit">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!-- End - Contact Form -->
         </main>
         <!-- Start - Footer -->
         <footer class="mt-auto">
@@ -349,7 +563,7 @@
                         class="navbar-nav align-items-center mx-auto my-3 mb-lg-0"
                     >
                         <li class="nav-item mb-2 mx-4">
-                            <a href="../index.html" class="nav-link"
+                            <a href="./index.html" class="nav-link"
                                 >Association Ain'terlude en Bugey</a
                             >
                         </li>
@@ -357,15 +571,12 @@
                             <a href="" class="nav-link">Plan du site</a>
                         </li>
                         <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link">Mentions Légales</a>
-                        </li>
-                        <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link"
-                                >Politique de confidentialité</a
+                            <a href="mentions-legales.html" class="nav-link"
+                                >Mentions Légales</a
                             >
                         </li>
                         <li class="nav-item mb-2 mx-4">
-                            <a href="./infos-pratiques.html" class="nav-link"
+                            <a href="infos-pratiques.html" class="nav-link"
                                 >Infos Pratiques
                                 <i class="fa-solid fa-phone me-2"></i>
                                 <i class="fa-solid fa-location-dot me-2"></i>
@@ -373,7 +584,9 @@
                             </a>
                         </li>
                         <li class="nav-item mb-2 mx-4">
-                            <a href="" class="nav-link"
+                            <a
+                                href="https://fr-fr.facebook.com/pages/category/Social-Service/Ainterlude-en-Bugey-1382548051770299/"
+                                class="nav-link"
                                 >Suivez-nous
                                 <i class="fa-brands fa-facebook"></i
                             ></a>

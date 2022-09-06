@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /
+
+
+Sitemap: https://e-ickart.github.io/ainterlude/sitemap.xml
