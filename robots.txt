@@ -1,12 +1,4 @@
-User-Agent: Googlebot
-Allow: /
-
-
-User-Agent: Googlebot-Mobile
-Allow: /
-
-
-User-Agent: Slurp
+User-Agent: *
 Disallow: /
 
 
