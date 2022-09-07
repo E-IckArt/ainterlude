@@ -396,30 +396,34 @@
                 </div>
                 <form class="row g-3">
                     <!-- Radio button -->
-                    <fieldset class="col-12 d-flex">
-                        <legend class="col-form-label col-sm-2 pt-0"></legend>
-                        <div class="form-check me-3">
-                            <input
-                                class="form-check-input"
-                                type="radio"
-                                name="gender"
-                                id="female"
-                                checked
-                            />
-                            <label class="form-check-label" for="female">
-                                Mme
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input
-                                class="form-check-input"
-                                type="radio"
-                                name="gender"
-                                id="male"
-                            />
-                            <label class="form-check-label" for="male">
-                                Mr
-                            </label>
+                    <fieldset class="col-12 d-flex flex-column">
+                        <legend class="col-form-label col-sm-2 pt-0">
+                            Civilité
+                        </legend>
+                        <div class="d-flex">
+                            <div class="form-check me-3">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="gender"
+                                    id="female"
+                                    checked
+                                />
+                                <label class="form-check-label" for="female">
+                                    Mme
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="radio"
+                                    name="gender"
+                                    id="male"
+                                />
+                                <label class="form-check-label" for="male">
+                                    Mr
+                                </label>
+                            </div>
                         </div>
                     </fieldset>
                     <!-- First Name -->
@@ -545,7 +549,7 @@
                             <label class="form-check-label" for="agreement">
                                 J'accepte la collecte de mes données
                                 personnelles. Voir la
-                                <a href="mentions-legales.html"
+                                <a href="mentions-legales.html" class="fw-bold"
                                     >Politique de confidentialité</a
                                 >
                             </label>
@@ -603,7 +607,7 @@
                     </ul>
                 </div>
             </nav>
-            <div class="mb-4 mx-4 fixed-bottom">
+            <div class="col-1 mb-4 ms-4 fixed-bottom">
                 <a href="#header"><i class="fa-solid fa-circle-up fs-1"></i></a>
             </div>
         </footer>
