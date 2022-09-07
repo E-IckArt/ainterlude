@@ -10176,4 +10176,11 @@ footer ul {
   font-family: "Special Elite", cursive;
 }
 
+.agenda .card-img-top {
+  height: 24em;
+}
+.agenda .card-footer {
+  min-height: fit-content;
+}
+
 /*# sourceMappingURL=style.css.map */
