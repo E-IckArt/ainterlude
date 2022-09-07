@@ -339,7 +339,7 @@
             <div
                 class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
             >
-                <div class="col-10 col-md-3 d-flex justify-content-center">
+                <div class="col-10 col-md-6 d-flex justify-content-center">
                     <h2 class="my-3">Par téléphone</h2>
                 </div>
                 <div class="col-10">
@@ -360,7 +360,7 @@
             <div
                 class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
             >
-                <div class="col-10 col-md-3 d-flex justify-content-center">
+                <div class="col-10 col-md-6 d-flex justify-content-center">
                     <h2 class="my-3">Sur Facebook</h2>
                 </div>
                 <div class="col-10">
@@ -382,16 +382,15 @@
             <div
                 class="row mb-3 mx-auto py-3 justify-content-evenly shadow border border-white rounded rounded-3"
             >
-                <div class="col-10 col-md-3 d-flex justify-content-center">
+                <div class="col-10 col-md-6 d-flex justify-content-center">
                     <h2 class="my-3" id="contactForm">Via le formulaire</h2>
                 </div>
                 <div class="col-10 d-flex justify-content-center">
                     <p class="fst-italic">
-                        Les champs suivis d'un astérisque<span
-                            class="text-warning"
-                        >
-                            *</span
-                        >
+                        Les champs suivis d'un
+                        <span class="text-warning">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </span>
                         sont obligatoires.
                     </p>
                 </div>
@@ -426,7 +425,10 @@
                     <!-- First Name -->
                     <div class="col-md-4">
                         <label for="firstname" class="form-label"
-                            >Prénom<span class="text-warning"> *</span>
+                            >Prénom
+                            <span class="text-warning ms-2">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </span>
                         </label>
                         <input
                             type="text"
@@ -440,8 +442,11 @@
                     <!-- Last Name -->
                     <div class="col-md-4">
                         <label for="lastname" class="form-label"
-                            >Nom <span class="text-warning"> *</span></label
-                        >
+                            >Nom
+                            <span class="text-warning ms-2">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </span>
+                        </label>
                         <input
                             type="text"
                             class="form-control"
@@ -454,10 +459,11 @@
                     <!-- Email -->
                     <div class="col-md-4">
                         <label for="email" class="form-label"
-                            >Adresse Email<span class="text-warning">
-                                *</span
-                            ></label
-                        >
+                            >Adresse email
+                            <span class="text-warning ms-2">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </span>
+                        </label>
                         <div class="input-group">
                             <span class="input-group-text" id="emailPrepend2"
                                 >@</span
@@ -511,8 +517,11 @@
                     </div>
                     <div class="col-12">
                         <label for="message" class="form-label"
-                            >Message <span class="text-warning"> *</span></label
-                        >
+                            >Message
+                            <span class="text-warning ms-2">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </span>
+                        </label>
                         <textarea
                             class="form-control"
                             id="message"
